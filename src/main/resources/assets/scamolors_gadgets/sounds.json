@@ -1,0 +1,12 @@
+{
+  "soviet": {
+    "category": "master",
+    "subtitle": "subtitles.soviet",
+    "sounds": [
+      {
+        "name": "scamolors_gadgets:gimn_sovetskogo_soyuza_1977_vocal",
+        "stream": false
+      }
+    ]
+  }
+}

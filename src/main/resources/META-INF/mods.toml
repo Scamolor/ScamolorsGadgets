@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Apache License version 2.0"
+
+[[mods]]
+modId="scamolors_gadgets"
+version="1.0.1b"
+displayName="Scamolor's Gadgets"
+credits="Made by Scamolor"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+authors="Scamolor"
+description='''
+A mod that adds some new stuff
+'''
+
+[[dependencies.scamolors_gadgets]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

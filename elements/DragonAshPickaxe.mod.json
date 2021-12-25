@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "dragonash_pickaxe",
+    "customModelName": "Normal",
+    "name": "Protostellar Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 18,
+    "efficiency": 11.0,
+    "attackSpeed": 1.4,
+    "enchantability": 40,
+    "damageVsEntity": 20.0,
+    "usageCount": 40600,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ProtostarDust"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

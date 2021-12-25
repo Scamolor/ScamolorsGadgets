@@ -1,0 +1,33 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "emerald_dualsword",
+    "customModelName": "Normal",
+    "name": "Emerald Sword",
+    "specialInfo": [
+      "The manual doesn't say how to hold this thing"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 8,
+    "efficiency": 19.0,
+    "attackSpeed": 5.0,
+    "enchantability": 18,
+    "damageVsEntity": 22.0,
+    "usageCount": 5280,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "Items.EMERALD"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

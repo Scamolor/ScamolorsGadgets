@@ -1,0 +1,39 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "crystalstaff2",
+    "customModelName": "Normal",
+    "name": "Crystal Staff",
+    "specialInfo": [
+      "Test item"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ScamolorGadgets"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "block.dispenser.launch"
+    },
+    "hasGlow": true,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 6.0,
+    "bulletDamage": 9.0,
+    "bulletKnockback": 5,
+    "bulletParticles": true,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Communism"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "texture.png"
+  }
+}

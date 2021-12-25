@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "1": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "2": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "3": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "4": {
+      "item": "minecraft:poisonous_potato"
+    },
+    "5": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "6": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "7": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "8": {
+      "item": "minecraft:rotten_flesh"
+    }
+  },
+  "result": {
+    "item": "scamolors_gadgets:bait_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "scamolors_gadgets:blocks/clonerinput",
+    "up": "scamolors_gadgets:blocks/clonertexture",
+    "north": "scamolors_gadgets:blocks/clonertexture",
+    "east": "scamolors_gadgets:blocks/clonertexture",
+    "south": "scamolors_gadgets:blocks/clonertexture",
+    "west": "scamolors_gadgets:blocks/clonertexture",
+    "particle": "scamolors_gadgets:blocks/clonerinput"
+  }
+}

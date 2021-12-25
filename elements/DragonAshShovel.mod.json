@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "dragonash_shovel",
+    "customModelName": "Normal",
+    "name": "Protostellar Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 18,
+    "efficiency": 11.0,
+    "attackSpeed": 1.4,
+    "enchantability": 40,
+    "damageVsEntity": 28.0,
+    "usageCount": 40600,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ProtostarDust"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

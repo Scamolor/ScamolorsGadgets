@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "scamolors_gadgets:protostar_dust"
+    },
+    "1": {
+      "item": "scamolors_gadgets:protostar_dust"
+    },
+    "2": {
+      "item": "scamolors_gadgets:protostar_dust"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "scamolors_gadgets:dragon_ash_pickaxe",
+    "count": 1
+  }
+}

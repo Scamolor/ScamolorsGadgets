@@ -1,0 +1,154 @@
+{
+  "_fv": 24,
+  "_type": "block",
+  "definition": {
+    "texture": "clonerinput",
+    "textureTop": "clonertexture",
+    "textureLeft": "clonertexture",
+    "textureFront": "clonertexture",
+    "textureRight": "clonertexture",
+    "textureBack": "clonertexture",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 0,
+    "emissiveRendering": true,
+    "displayFluidOverlay": true,
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": false,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "name": "Cloner",
+    "specialInfo": [
+      "Duplicates items when powered (at least it should)"
+    ],
+    "hardness": 18.0,
+    "resistance": 10.0,
+    "hasGravity": false,
+    "isWaterloggable": false,
+    "creativeTab": {
+      "value": "CUSTOM:ScamolorGadgets"
+    },
+    "destroyTool": "pickaxe",
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "useLootTableForDrops": false,
+    "enchantPowerBonus": 5.0,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": true,
+    "lightOpacity": 13,
+    "material": {
+      "value": "IRON"
+    },
+    "tickRate": 10,
+    "tickRandomly": true,
+    "isReplaceable": false,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "LAPIS",
+    "creativePickItem": {
+      "value": "Blocks.SOUL_FIRE"
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "LAVA",
+    "beaconColorModifier": {
+      "value": -8650819,
+      "falpha": 0.0
+    },
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.9,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "IGNORE",
+    "isNotColidable": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "METAL"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "luminance": 3,
+    "unbreakable": false,
+    "breakHarvestLevel": 3,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "VILLAGER_ANGRY"
+    },
+    "particleSpawningShape": "Tube",
+    "particleSpawningRadious": 1.500000001490116,
+    "particleAmount": 10,
+    "particleCondition": {
+      "name": "ClonerParticleSpawningCondition"
+    },
+    "hasInventory": true,
+    "guiBoundTo": "ClonerInput",
+    "openGUIOnRightClick": true,
+    "inventorySize": 2,
+    "inventoryStackSize": 256,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [
+      1
+    ],
+    "inventoryInSlotIDs": [
+      0
+    ],
+    "hasEnergyStorage": true,
+    "energyInitial": 0,
+    "energyCapacity": 40000000,
+    "energyMaxReceive": 500,
+    "energyMaxExtract": 500,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "ClonerTagging"
+    },
+    "onRandomUpdateEvent": {
+      "name": "ClonerTagging"
+    },
+    "onRedstoneOn": {
+      "name": "AltDupeStarter2"
+    },
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "blocksToReplace": [],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

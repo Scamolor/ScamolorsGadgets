@@ -1,0 +1,597 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Bat",
+      "type": "loottable",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bat"
+    },
+    {
+      "name": "DisableBabyZombies",
+      "type": "gamerule",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disableBabyZombies",
+      "metadata": {
+        "type": "logic"
+      }
+    },
+    {
+      "name": "DisableBabyZombiesProcedure",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disable_baby_zombies_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Communism",
+      "type": "musicdisc",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "communism"
+    },
+    {
+      "name": "ConvertHorseToZombie",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "convert_horse_to_zombie",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EmeraldPick",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_pick"
+    },
+    {
+      "name": "EmeraldAxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_axe"
+    },
+    {
+      "name": "EmeraldSword",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_sword"
+    },
+    {
+      "name": "DuplicationCommenceAlt",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "duplication_commence_alt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cloner",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cloner"
+    },
+    {
+      "name": "ClonerInput",
+      "type": "gui",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cloner_input"
+    },
+    {
+      "name": "ClonerParticleSpawningCondition",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cloner_particle_spawning_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ClonerTagging",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cloner_tagging",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Giant",
+      "type": "loottable",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giant"
+    },
+    {
+      "name": "ProtostarDust",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "protostar_dust"
+    },
+    {
+      "name": "DragonAshPickaxe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragon_ash_pickaxe"
+    },
+    {
+      "name": "DragonAshAxe",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragon_ash_axe"
+    },
+    {
+      "name": "DragonAshSword",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragon_ash_sword"
+    },
+    {
+      "name": "DragonAshShovel",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragon_ash_shovel"
+    },
+    {
+      "name": "DragonAshPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragon_ash_pickaxe_recipe"
+    },
+    {
+      "name": "DragonAshAxeRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragon_ash_axe_recipe"
+    },
+    {
+      "name": "DragonAshSwordRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragon_ash_sword_recipe"
+    },
+    {
+      "name": "DragonAshShovelRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragon_ash_shovel_recipe"
+    },
+    {
+      "name": "TestingGameRule",
+      "type": "gamerule",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "testingGameRule",
+      "metadata": {
+        "type": "logic"
+      }
+    },
+    {
+      "name": "Testing",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "testing",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Enderdragonloot",
+      "type": "loottable",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enderdragonloot"
+    },
+    {
+      "name": "HealthEdit",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "health_edit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExtremelyRareItems",
+      "type": "tag",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "extremely_rare_items"
+    },
+    {
+      "name": "ScamolorGadgets",
+      "type": "tab",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "scamolor_gadgets"
+    },
+    {
+      "name": "BaitBlock",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bait_block"
+    },
+    {
+      "name": "Bait",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bait"
+    },
+    {
+      "name": "CrystalStaff",
+      "type": "rangeditem",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_staff"
+    },
+    {
+      "name": "AltDupeStarter2",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alt_dupe_starter_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ToggleCloner",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toggle_cloner",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Colossus",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "colossus"
+    },
+    {
+      "name": "PulsarBurst",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pulsar_burst",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrystalOfUndying",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_of_undying"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "soviet",
+      "files": [
+        "gimn_sovetskogo_soyuza_1977_vocal"
+      ],
+      "category": "master",
+      "subtitle": "STALIN IS PLEASED"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.scamolors_gadgets.communism": "Anthem Of The Soviet Union",
+      "gamerule.testingGameRule": "Mod Development Rule",
+      "item.scamolors_gadgets.communism.desc": "The concentrated essence of Stalin",
+      "item.scamolors_gadgets.emerald_pick": "Emerald Pickaxe",
+      "item.scamolors_gadgets.emerald_axe": "Emerald Axe",
+      "block.scamolors_gadgets.cloner": "Cloner",
+      "gamerule.disableBabyZombies.description": "Prevents the little bastards from spawning",
+      "gamerule.disableBabyZombies": "Disable Baby Zombies",
+      "item.scamolors_gadgets.colossus": "Colossus",
+      "item.scamolors_gadgets.crystal_of_undying": "Crystal Of Undying",
+      "item.scamolors_gadgets.protostar_dust": "Dragon\u0027s Ash",
+      "item.scamolors_gadgets.dragon_ash_shovel": "Protostellar Shovel",
+      "subtitles.soviet": "STALIN IS PLEASED",
+      "item.scamolors_gadgets.dragon_ash_pickaxe": "Protostellar Pickaxe",
+      "item.scamolors_gadgets.emerald_sword": "Emerald Sword",
+      "item.scamolors_gadgets.dragon_ash_axe": "Protostellar Axe",
+      "block.scamolors_gadgets.bait_block": "Bait Block",
+      "item.scamolors_gadgets.crystal_staff": "Crystal Staff",
+      "item.scamolors_gadgets.dragon_ash_sword": "Protostellar Sword",
+      "gamerule.testingGameRule.description": "Nothing",
+      "itemGroup.tabscamolor_gadgets": "Scamolor\u0027s Gadgets"
+    },
+    "es_cu": {
+      "item.scamolors_gadgets.communism": "Anthem Of The Soviet Union",
+      "gamerule.testingGameRule": "Mod Development Rule",
+      "item.scamolors_gadgets.communism.desc": "The concentrated essence of Stalin",
+      "item.scamolors_gadgets.emerald_pick": "Emerald Pickaxe",
+      "item.scamolors_gadgets.emerald_axe": "Emerald Axe",
+      "block.scamolors_gadgets.cloner": "Cloner",
+      "gamerule.disableBabyZombies.description": "Prevents the little bastards from spawning",
+      "gamerule.disableBabyZombies": "Disable Baby Zombies",
+      "item.scamolors_gadgets.colossus": "Colossus",
+      "item.scamolors_gadgets.crystal_of_undying": "Crystal Of Undying",
+      "item.scamolors_gadgets.protostar_dust": "Dragon\u0027s Ash",
+      "item.scamolors_gadgets.dragon_ash_shovel": "Protostellar Shovel",
+      "subtitles.soviet": "STALIN IS PLEASED",
+      "item.scamolors_gadgets.dragon_ash_pickaxe": "Protostellar Pickaxe",
+      "item.scamolors_gadgets.emerald_sword": "Emerald Sword",
+      "item.scamolors_gadgets.dragon_ash_axe": "Protostellar Axe",
+      "block.scamolors_gadgets.bait_block": "Bait Block",
+      "item.scamolors_gadgets.crystal_staff": "Crystal Staff",
+      "item.scamolors_gadgets.dragon_ash_sword": "Protostellar Sword",
+      "gamerule.testingGameRule.description": "Nada",
+      "itemGroup.tabscamolor_gadgets": "Scamolor\u0027s Gadgets"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "scamolors_gadgets",
+    "modName": "Scamolor\u0027s Gadgets",
+    "version": "1.0.1b",
+    "description": "A mod that adds some new stuff",
+    "author": "Scamolor",
+    "websiteURL": "https://mcreator.net",
+    "license": "Apache License version 2.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "export",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Made by Scamolor",
+    "modElementsPackage": "net.hyperzone.scamolorsgadgets",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100351610
+}

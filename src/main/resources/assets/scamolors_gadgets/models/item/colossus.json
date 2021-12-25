@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "scamolors_gadgets:items/colossal_pickaxe"
+  }
+}

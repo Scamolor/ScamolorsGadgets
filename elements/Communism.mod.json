@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "ourdisk",
+    "name": "Anthem Of The Soviet Union",
+    "description": "The concentrated essence of Stalin",
+    "creativeTab": {
+      "value": "CUSTOM:ScamolorGadgets"
+    },
+    "music": {
+      "value": "CUSTOM:soviet"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

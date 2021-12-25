@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "dragonash_sword",
+    "customModelName": "Normal",
+    "name": "Protostellar Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 18,
+    "efficiency": 11.0,
+    "attackSpeed": 1.4,
+    "enchantability": 40,
+    "damageVsEntity": 34.0,
+    "usageCount": 40600,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ProtostarDust"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
