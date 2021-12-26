@@ -1,0 +1,42 @@
+{
+  "_fv": 24,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:OreBiome"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.STONE#3"
+    },
+    "fluidBlock": {
+      "value": "Blocks.LAVA"
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "portalFrame": {
+      "value": "Blocks.MAGMA"
+    },
+    "portalParticles": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "portalLuminance": 5,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "igniter",
+    "portalTexture": "ether_still",
+    "enablePortal": true
+  }
+}

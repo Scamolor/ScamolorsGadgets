@@ -112,9 +112,9 @@ public class ClonerBlock extends ScamolorsGadgetsModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(18f, 10f).setLightLevel(s -> 3).harvestLevel(3)
-					.harvestTool(ToolType.PICKAXE).setRequiresTool().slipperiness(0.9f).tickRandomly().setNeedsPostProcessing((bs, br, bp) -> true)
-					.setEmmisiveRendering((bs, br, bp) -> true));
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(18f, 8750f).setLightLevel(s -> 3)
+					.harvestLevel(4).harvestTool(ToolType.PICKAXE).setRequiresTool().slipperiness(0.9f).tickRandomly()
+					.setNeedsPostProcessing((bs, br, bp) -> true).setEmmisiveRendering((bs, br, bp) -> true));
 			setRegistryName("cloner");
 		}
 
@@ -418,7 +418,7 @@ public class ClonerBlock extends ScamolorsGadgetsModElements.ModElement {
 		}
 
 		private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
-		private final EnergyStorage energyStorage = new EnergyStorage(40000000, 500, 500, 0) {
+		private final EnergyStorage energyStorage = new EnergyStorage(40000000, 500000, 500000, 0) {
 			@Override
 			public int receiveEnergy(int maxReceive, boolean simulate) {
 				int retval = super.receiveEnergy(maxReceive, simulate);

@@ -2,17 +2,17 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "clonerinput",
-    "textureTop": "clonertexture",
-    "textureLeft": "clonertexture",
-    "textureFront": "clonertexture",
-    "textureRight": "clonertexture",
-    "textureBack": "clonertexture",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "texture": "ultradensequartz",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
-    "emissiveRendering": true,
-    "displayFluidOverlay": true,
+    "emissiveRendering": false,
+    "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
@@ -32,12 +32,10 @@
         "subtract": false
       }
     ],
-    "name": "Cloner",
-    "specialInfo": [
-      "Duplicates items when powered (at least it should)"
-    ],
-    "hardness": 18.0,
-    "resistance": 8750.0,
+    "name": "Ultradense Quartz",
+    "specialInfo": [],
+    "hardness": 3.0,
+    "resistance": 17.5,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -49,41 +47,37 @@
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "enchantPowerBonus": 5.0,
+    "enchantPowerBonus": 1.5,
     "plantsGrowOn": false,
-    "canRedstoneConnect": true,
-    "lightOpacity": 13,
+    "canRedstoneConnect": false,
+    "lightOpacity": 15,
     "material": {
-      "value": "IRON"
+      "value": "ROCK"
     },
-    "tickRate": 10,
-    "tickRandomly": true,
+    "tickRate": 0,
+    "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "LAPIS",
+    "colorOnMap": "QUARTZ",
     "creativePickItem": {
-      "value": "Blocks.SOUL_FIRE"
+      "value": ""
     },
     "offsetType": "NONE",
-    "aiPathNodeType": "LAVA",
-    "beaconColorModifier": {
-      "value": -8650819,
-      "falpha": 0.0
-    },
+    "aiPathNodeType": "BLOCKED",
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
-    "slipperiness": 0.9,
+    "slipperiness": 0.2,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "IGNORE",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""
@@ -100,49 +94,33 @@
     "fallSound": {
       "value": ""
     },
-    "luminance": 3,
+    "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 4,
-    "spawnParticles": true,
+    "breakHarvestLevel": 2,
+    "spawnParticles": false,
     "particleToSpawn": {
-      "value": "VILLAGER_ANGRY"
+      "value": "EXPLOSION_NORMAL"
     },
-    "particleSpawningShape": "Tube",
-    "particleSpawningRadious": 1.500000001490116,
-    "particleAmount": 10,
-    "particleCondition": {
-      "name": "ClonerParticleSpawningCondition"
-    },
-    "hasInventory": true,
-    "guiBoundTo": "ClonerInput",
-    "openGUIOnRightClick": true,
-    "inventorySize": 2,
-    "inventoryStackSize": 256,
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
-    "inventoryOutSlotIDs": [
-      1
-    ],
-    "inventoryInSlotIDs": [
-      0
-    ],
-    "hasEnergyStorage": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
     "energyInitial": 0,
-    "energyCapacity": 40000000,
-    "energyMaxReceive": 500000,
-    "energyMaxExtract": 500000,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onTickUpdate": {
-      "name": "ClonerTagging"
-    },
-    "onRandomUpdateEvent": {
-      "name": "ClonerTagging"
-    },
-    "onRedstoneOn": {
-      "name": "AltDupeStarter2"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],

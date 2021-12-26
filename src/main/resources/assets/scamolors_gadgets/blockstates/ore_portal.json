@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "scamolors_gadgets:block/ore_portal_ew"
+    },
+    "axis=x": {
+      "model": "scamolors_gadgets:block/ore_portal_ns"
+    }
+  }
+}

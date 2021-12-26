@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:ores/quartz"
+    },
+    "1": {
+      "tag": "forge:ores/quartz"
+    },
+    "2": {
+      "tag": "forge:ores/quartz"
+    },
+    "3": {
+      "tag": "forge:ores/quartz"
+    },
+    "4": {
+      "tag": "forge:ores/quartz"
+    },
+    "5": {
+      "tag": "forge:ores/quartz"
+    },
+    "6": {
+      "tag": "forge:ores/quartz"
+    },
+    "7": {
+      "tag": "forge:ores/quartz"
+    },
+    "8": {
+      "tag": "forge:ores/quartz"
+    }
+  },
+  "result": {
+    "item": "scamolors_gadgets:ultradense_quartz",
+    "count": 1
+  }
+}

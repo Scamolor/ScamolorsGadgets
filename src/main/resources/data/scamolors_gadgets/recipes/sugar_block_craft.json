@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sugar"
+    },
+    "1": {
+      "item": "minecraft:sugar"
+    },
+    "2": {
+      "item": "minecraft:sugar"
+    },
+    "3": {
+      "item": "minecraft:sugar"
+    },
+    "4": {
+      "item": "minecraft:sugar"
+    },
+    "5": {
+      "item": "minecraft:sugar"
+    },
+    "6": {
+      "item": "minecraft:sugar"
+    },
+    "7": {
+      "item": "minecraft:sugar"
+    },
+    "8": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "scamolors_gadgets:sugarblock",
+    "count": 1
+  }
+}

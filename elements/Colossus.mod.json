@@ -76,6 +76,15 @@
       },
       {
         "value": "Blocks.VOID_AIR"
+      },
+      {
+        "value": "Blocks.END_GATEWAY"
+      },
+      {
+        "value": "Blocks.PORTAL"
+      },
+      {
+        "value": "CUSTOM:Colossus"
       }
     ],
     "immuneToFire": true,

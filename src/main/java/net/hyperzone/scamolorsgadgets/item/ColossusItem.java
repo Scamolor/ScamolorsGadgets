@@ -58,7 +58,8 @@ public class ColossusItem extends ScamolorsGadgetsModElements.ModElement {
 						new ItemStack(Blocks.FIRE), new ItemStack(Blocks.BUBBLE_COLUMN), new ItemStack(Blocks.DAYLIGHT_DETECTOR),
 						new ItemStack(Blocks.ATTACHED_PUMPKIN_STEM), new ItemStack(Blocks.ATTACHED_MELON_STEM), new ItemStack(Blocks.MELON_STEM),
 						new ItemStack(Blocks.BEETROOTS), new ItemStack(Blocks.PUMPKIN_STEM), new ItemStack(Blocks.SPAWNER),
-						new ItemStack(Blocks.REDSTONE_LAMP), new ItemStack(Blocks.CAVE_AIR), new ItemStack(Blocks.VOID_AIR));
+						new ItemStack(Blocks.REDSTONE_LAMP), new ItemStack(Blocks.CAVE_AIR), new ItemStack(Blocks.VOID_AIR),
+						new ItemStack(Blocks.END_GATEWAY), new ItemStack(Blocks.NETHER_PORTAL), new ItemStack(ColossusItem.block));
 			}
 		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS).isImmuneToFire()) {
 			@Override
