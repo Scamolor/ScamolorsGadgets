@@ -14,6 +14,7 @@ import net.minecraft.item.Item;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
+import net.hyperzone.scamolorsgadgets.itemgroup.ScamolorGadgetsItemGroup;
 import net.hyperzone.scamolorsgadgets.ScamolorsGadgetsModElements;
 
 import java.util.List;
@@ -34,7 +35,7 @@ public class CrystalOfUndyingItem extends ScamolorsGadgetsModElements.ModElement
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(null).maxStackSize(1).isImmuneToFire().rarity(Rarity.EPIC));
+			super(new Item.Properties().group(ScamolorGadgetsItemGroup.tab).maxStackSize(1).isImmuneToFire().rarity(Rarity.EPIC));
 			setRegistryName("crystal_of_undying");
 		}
 
@@ -45,7 +46,7 @@ public class CrystalOfUndyingItem extends ScamolorsGadgetsModElements.ModElement
 
 		@Override
 		public int getUseDuration(ItemStack itemstack) {
-			return 0;
+			return 14;
 		}
 
 		@Override

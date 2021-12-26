@@ -508,9 +508,59 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crystal_of_undying"
+    },
+    {
+      "name": "EffectHeal",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "effect_heal",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "suffering",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "nice",
+      "type": "number",
+      "scope": "map",
+      "value": "69420.0"
+    }
+  ],
   "sound_elements": [
     {
       "name": "soviet",
@@ -522,6 +572,29 @@
     }
   ],
   "language_map": {
+    "ru_ru": {
+      "item.scamolors_gadgets.communism": "Anthem Of The Soviet Union",
+      "gamerule.testingGameRule": "Mod Development Rule",
+      "item.scamolors_gadgets.communism.desc": "The concentrated essence of Stalin",
+      "item.scamolors_gadgets.emerald_pick": "Emerald Pickaxe",
+      "item.scamolors_gadgets.emerald_axe": "Emerald Axe",
+      "block.scamolors_gadgets.cloner": "Cloner",
+      "gamerule.disableBabyZombies.description": "Prevents the little bastards from spawning",
+      "gamerule.disableBabyZombies": "Cyka Blyat",
+      "item.scamolors_gadgets.colossus": "Colossus",
+      "item.scamolors_gadgets.crystal_of_undying": "Crystal Of Undying",
+      "item.scamolors_gadgets.protostar_dust": "Dragon\u0027s Ash",
+      "item.scamolors_gadgets.dragon_ash_shovel": "Protostellar Shovel",
+      "subtitles.soviet": "STALIN IS PLEASED",
+      "item.scamolors_gadgets.dragon_ash_pickaxe": "Protostellar Pickaxe",
+      "item.scamolors_gadgets.emerald_sword": "Emerald Sword",
+      "item.scamolors_gadgets.dragon_ash_axe": "Protostellar Axe",
+      "block.scamolors_gadgets.bait_block": "Bait Block",
+      "item.scamolors_gadgets.crystal_staff": "Crystal Staff",
+      "item.scamolors_gadgets.dragon_ash_sword": "Protostellar Sword",
+      "gamerule.testingGameRule.description": "Nothing",
+      "itemGroup.tabscamolor_gadgets": "Scamolor\u0027s Gadgets"
+    },
     "en_us": {
       "item.scamolors_gadgets.communism": "Anthem Of The Soviet Union",
       "gamerule.testingGameRule": "Mod Development Rule",
