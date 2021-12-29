@@ -647,6 +647,114 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sugar_block_uncraft"
+    },
+    {
+      "name": "CompressedGunpowder",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressed_gunpowder"
+    },
+    {
+      "name": "GunpowderCompress",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gunpowder_compress"
+    },
+    {
+      "name": "GunpowderDecompress",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gunpowder_decompress"
+    },
+    {
+      "name": "BlockOfGunpowder",
+      "type": "fuel",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_of_gunpowder"
+    },
+    {
+      "name": "Flerovium",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flerovium"
+    },
+    {
+      "name": "FleroviumChunk",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flerovium_chunk"
+    },
+    {
+      "name": "Fleroviumore",
+      "type": "loottable",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fleroviumore"
+    },
+    {
+      "name": "ImpermeableBlocks",
+      "type": "tag",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "impermeable_blocks"
+    },
+    {
+      "name": "BeaconBaseBlockBlocks",
+      "type": "tag",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beacon_base_block_blocks"
+    },
+    {
+      "name": "DragonImmuneBlocks",
+      "type": "tag",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragon_immune_blocks"
+    },
+    {
+      "name": "WitherImmuneBlocks",
+      "type": "tag",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wither_immune_blocks"
+    },
+    {
+      "name": "FleroviumBlock",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flerovium_block"
     }
   ],
   "variable_elements": [
@@ -671,6 +779,14 @@
       ],
       "category": "master",
       "subtitle": "STALIN IS PLEASED"
+    },
+    {
+      "name": "mojangspecifications",
+      "files": [
+        "mojangspecifications"
+      ],
+      "category": "music",
+      "subtitle": "M O J A N G  S P E C I F I C A T I O N S"
     }
   ],
   "language_map": {
@@ -678,19 +794,23 @@
       "item.scamolors_gadgets.communism": "Anthem Of The Soviet Union",
       "gamerule.testingGameRule": "Mod Development Rule",
       "item.scamolors_gadgets.communism.desc": "The concentrated essence of Stalin",
-      "item.scamolors_gadgets.emerald_axe": "Emerald Axe",
       "item.scamolors_gadgets.emerald_pick": "Emerald Pickaxe",
+      "item.scamolors_gadgets.emerald_axe": "Emerald Axe",
       "gamerule.disableBabyZombies.description": "Prevents the little bastards from spawning",
+      "block.scamolors_gadgets.compressed_gunpowder": "Compressed Gunpowder Block",
+      "block.scamolors_gadgets.flerovium": "Flerovium Ore",
       "item.scamolors_gadgets.dragon_ash_shovel": "Protostellar Shovel",
       "subtitles.soviet": "STALIN IS PLEASED",
-      "item.scamolors_gadgets.dragon_ash_axe": "Protostellar Axe",
+      "subtitles.mojangspecifications": "M O J A N G  S P E C I F I C A T I O N S",
       "item.scamolors_gadgets.emerald_sword": "Emerald Sword",
+      "item.scamolors_gadgets.dragon_ash_axe": "Protostellar Axe",
       "block.scamolors_gadgets.bait_block": "Bait Block",
       "biome.scamolors_gadgets.ore_biome": "Ore Biome",
       "item.scamolors_gadgets.dragon_ash_sword": "Protostellar Sword",
       "itemGroup.tabscamolor_gadgets": "Scamolor\u0027s Gadgets",
       "block.scamolors_gadgets.cloner": "Cloner",
       "block.scamolors_gadgets.ultradense_quartz": "Ultradense Quartz",
+      "block.scamolors_gadgets.flerovium_block": "Flerovium Block",
       "gamerule.disableBabyZombies": "Cyka Blyat",
       "item.scamolors_gadgets.colossus": "Colossus",
       "item.scamolors_gadgets.crystal_of_undying": "Crystal Of Undying",
@@ -699,25 +819,30 @@
       "item.scamolors_gadgets.ore": "Igniter",
       "block.scamolors_gadgets.sugarblock": "Sugar Block",
       "item.scamolors_gadgets.crystal_staff": "Crystal Staff",
+      "item.scamolors_gadgets.flerovium_chunk": "Flerovium Chunk",
       "gamerule.testingGameRule.description": "Nothing"
     },
     "en_us": {
       "item.scamolors_gadgets.communism": "Anthem Of The Soviet Union",
       "gamerule.testingGameRule": "Mod Development Rule",
       "item.scamolors_gadgets.communism.desc": "The concentrated essence of Stalin",
-      "item.scamolors_gadgets.emerald_axe": "Emerald Axe",
       "item.scamolors_gadgets.emerald_pick": "Emerald Pickaxe",
+      "item.scamolors_gadgets.emerald_axe": "Emerald Axe",
       "gamerule.disableBabyZombies.description": "Prevents the little bastards from spawning",
+      "block.scamolors_gadgets.compressed_gunpowder": "Compressed Gunpowder Block",
+      "block.scamolors_gadgets.flerovium": "Flerovium Ore",
       "item.scamolors_gadgets.dragon_ash_shovel": "Protostellar Shovel",
       "subtitles.soviet": "STALIN IS PLEASED",
-      "item.scamolors_gadgets.dragon_ash_axe": "Protostellar Axe",
+      "subtitles.mojangspecifications": "M O J A N G  S P E C I F I C A T I O N S",
       "item.scamolors_gadgets.emerald_sword": "Emerald Sword",
+      "item.scamolors_gadgets.dragon_ash_axe": "Protostellar Axe",
       "block.scamolors_gadgets.bait_block": "Bait Block",
       "biome.scamolors_gadgets.ore_biome": "Ore Biome",
       "item.scamolors_gadgets.dragon_ash_sword": "Protostellar Sword",
       "itemGroup.tabscamolor_gadgets": "Scamolor\u0027s Gadgets",
       "block.scamolors_gadgets.cloner": "Cloner",
       "block.scamolors_gadgets.ultradense_quartz": "Ultradense Quartz",
+      "block.scamolors_gadgets.flerovium_block": "Flerovium Block",
       "gamerule.disableBabyZombies": "Disable Baby Zombies",
       "item.scamolors_gadgets.colossus": "Colossus",
       "item.scamolors_gadgets.crystal_of_undying": "Crystal Of Undying",
@@ -726,25 +851,30 @@
       "item.scamolors_gadgets.ore": "Igniter",
       "block.scamolors_gadgets.sugarblock": "Sugar Block",
       "item.scamolors_gadgets.crystal_staff": "Crystal Staff",
+      "item.scamolors_gadgets.flerovium_chunk": "Flerovium Chunk",
       "gamerule.testingGameRule.description": "Nothing"
     },
     "es_cu": {
       "item.scamolors_gadgets.communism": "Anthem Of The Soviet Union",
       "gamerule.testingGameRule": "Mod Development Rule",
       "item.scamolors_gadgets.communism.desc": "The concentrated essence of Stalin",
-      "item.scamolors_gadgets.emerald_axe": "Emerald Axe",
       "item.scamolors_gadgets.emerald_pick": "Emerald Pickaxe",
+      "item.scamolors_gadgets.emerald_axe": "Emerald Axe",
       "gamerule.disableBabyZombies.description": "Prevents the little bastards from spawning",
+      "block.scamolors_gadgets.compressed_gunpowder": "Compressed Gunpowder Block",
+      "block.scamolors_gadgets.flerovium": "Flerovium Ore",
       "item.scamolors_gadgets.dragon_ash_shovel": "Protostellar Shovel",
       "subtitles.soviet": "STALIN IS PLEASED",
-      "item.scamolors_gadgets.dragon_ash_axe": "Protostellar Axe",
+      "subtitles.mojangspecifications": "M O J A N G  S P E C I F I C A T I O N S",
       "item.scamolors_gadgets.emerald_sword": "Emerald Sword",
+      "item.scamolors_gadgets.dragon_ash_axe": "Protostellar Axe",
       "block.scamolors_gadgets.bait_block": "Bait Block",
       "biome.scamolors_gadgets.ore_biome": "Ore Biome",
       "item.scamolors_gadgets.dragon_ash_sword": "Protostellar Sword",
       "itemGroup.tabscamolor_gadgets": "Scamolor\u0027s Gadgets",
       "block.scamolors_gadgets.cloner": "Cloner",
       "block.scamolors_gadgets.ultradense_quartz": "Ultradense Quartz",
+      "block.scamolors_gadgets.flerovium_block": "Flerovium Block",
       "gamerule.disableBabyZombies": "Disable Baby Zombies",
       "item.scamolors_gadgets.colossus": "Colossus",
       "item.scamolors_gadgets.crystal_of_undying": "Crystal Of Undying",
@@ -753,6 +883,7 @@
       "item.scamolors_gadgets.ore": "Igniter",
       "block.scamolors_gadgets.sugarblock": "Sugar Block",
       "item.scamolors_gadgets.crystal_staff": "Crystal Staff",
+      "item.scamolors_gadgets.flerovium_chunk": "Flerovium Chunk",
       "gamerule.testingGameRule.description": "Nada"
     }
   },
@@ -763,10 +894,10 @@
   "workspaceSettings": {
     "modid": "scamolors_gadgets",
     "modName": "Scamolor\u0027s Gadgets",
-    "version": "1.0.1b",
+    "version": "1.0.2a",
     "description": "A mod that adds some new stuff",
     "author": "Scamolor",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://github.com/Scamolor",
     "license": "Apache License version 2.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,

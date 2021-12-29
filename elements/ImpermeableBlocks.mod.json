@@ -1,0 +1,41 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Cloner"
+      },
+      {
+        "value": "CUSTOM:BaitBlock"
+      },
+      {
+        "value": "Blocks.PISTON_HEAD"
+      },
+      {
+        "value": "Blocks.PISTON_EXTENSION"
+      },
+      {
+        "value": "CUSTOM:Flerovium"
+      },
+      {
+        "value": "CUSTOM:CompressedGunpowder"
+      },
+      {
+        "value": "Blocks.FIRE"
+      },
+      {
+        "value": "Blocks.SOUL_FIRE"
+      },
+      {
+        "value": "Blocks.RESPAWN_ANCHOR"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "impermeable",
+    "namespace": "minecraft"
+  }
+}

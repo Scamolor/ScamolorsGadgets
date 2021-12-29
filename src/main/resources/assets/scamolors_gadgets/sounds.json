@@ -8,5 +8,15 @@
         "stream": false
       }
     ]
+  },
+  "mojangspecifications": {
+    "category": "music",
+    "subtitle": "subtitles.mojangspecifications",
+    "sounds": [
+      {
+        "name": "scamolors_gadgets:mojangspecifications",
+        "stream": true
+      }
+    ]
   }
 }

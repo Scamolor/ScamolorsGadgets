@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "scamolors_gadgets:bait_block",
+    "minecraft:spawner",
+    "scamolors_gadgets:cloner",
+    "scamolors_gadgets:flerovium"
+  ]
+}

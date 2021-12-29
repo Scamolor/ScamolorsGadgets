@@ -9,33 +9,45 @@
     "undergroundBlock": {
       "value": "Blocks.CLAY"
     },
+    "airColor": {
+      "value": -16760474,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -3800833,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -16711715,
+      "falpha": 0.0
+    },
     "ambientSound": {
-      "value": ""
+      "value": "block.anvil.break"
     },
     "additionsSound": {
-      "value": ""
+      "value": "ambient.cave"
     },
     "music": {
-      "value": ""
+      "value": "CUSTOM:mojangspecifications"
     },
     "moodSound": {
       "value": ""
     },
     "moodSoundDelay": 6000,
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
     },
-    "particlesProbability": 0.5,
+    "particlesProbability": 12.5,
     "biomeCategory": "EXTREME_HILLS",
     "parent": {
       "value": "mutated_extreme_hills_with_trees"
     },
-    "rainingPossibility": 0.5,
-    "temperature": 0.5,
-    "baseHeight": 0.1,
+    "rainingPossibility": 0.8,
+    "temperature": -1.0,
+    "baseHeight": 0.7,
     "heightVariation": 0.0,
-    "biomeType": "DESERT",
+    "biomeType": "ICY",
     "spawnBiome": false,
     "biomeWeight": 10,
     "biomeDictionaryTypes": [
@@ -50,7 +62,7 @@
     "flowersPerChunk": 4,
     "mushroomsPerChunk": 0,
     "bigMushroomsChunk": 0,
-    "sandPatchesPerChunk": 0,
+    "sandPatchesPerChunk": 3,
     "gravelPatchesPerChunk": 7,
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
@@ -73,18 +85,18 @@
     "spawnStronghold": true,
     "spawnMineshaft": true,
     "spawnMineshaftMesa": true,
-    "spawnPillagerOutpost": false,
+    "spawnPillagerOutpost": true,
     "villageType": "none",
-    "spawnWoodlandMansion": false,
+    "spawnWoodlandMansion": true,
     "spawnJungleTemple": true,
     "spawnDesertPyramid": false,
     "spawnSwampHut": false,
-    "spawnIgloo": false,
-    "spawnOceanMonument": false,
+    "spawnIgloo": true,
+    "spawnOceanMonument": true,
     "spawnShipwreck": false,
     "spawnShipwreckBeached": false,
     "spawnBuriedTreasure": true,
-    "oceanRuinType": "NONE",
+    "oceanRuinType": "COLD",
     "spawnNetherBridge": false,
     "spawnNetherFossil": true,
     "spawnBastionRemnant": false,

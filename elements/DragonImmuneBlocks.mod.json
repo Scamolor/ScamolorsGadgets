@@ -1,0 +1,26 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Cloner"
+      },
+      {
+        "value": "CUSTOM:BaitBlock"
+      },
+      {
+        "value": "Blocks.MOB_SPAWNER"
+      },
+      {
+        "value": "CUSTOM:Flerovium"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "dragon_immune",
+    "namespace": "minecraft"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Cloner"
+      },
+      {
+        "value": "CUSTOM:BaitBlock"
+      },
+      {
+        "value": "CUSTOM:Flerovium"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "wither_immune",
+    "namespace": "minecraft"
+  }
+}

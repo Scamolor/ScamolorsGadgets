@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "scamolors_gadgets:compressed_gunpowder",
+    "minecraft:soul_fire",
+    "scamolors_gadgets:bait_block",
+    "minecraft:piston_head",
+    "scamolors_gadgets:cloner",
+    "minecraft:respawn_anchor",
+    "scamolors_gadgets:flerovium",
+    "minecraft:fire",
+    "minecraft:moving_piston"
+  ]
+}
