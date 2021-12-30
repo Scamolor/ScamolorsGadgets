@@ -31,6 +31,9 @@
       },
       {
         "value": "Blocks.RESPAWN_ANCHOR"
+      },
+      {
+        "value": "CUSTOM:FleroviumBlock"
       }
     ],
     "functions": [],

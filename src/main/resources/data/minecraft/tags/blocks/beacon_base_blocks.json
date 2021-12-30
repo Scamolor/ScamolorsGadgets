@@ -1,7 +1,23 @@
 {
   "replace": false,
   "values": [
+    "minecraft:soul_fire",
+    "minecraft:command_block",
+    "minecraft:chain_command_block",
     "minecraft:piston_head",
-    "minecraft:moving_piston"
+    "scamolors_gadgets:flerovium_block",
+    "minecraft:structure_void",
+    "minecraft:end_portal_frame",
+    "minecraft:fire",
+    "minecraft:barrier",
+    "scamolors_gadgets:flerovium",
+    "minecraft:structure_block",
+    "minecraft:repeating_command_block",
+    "minecraft:end_portal",
+    "minecraft:crying_obsidian",
+    "minecraft:beacon",
+    "minecraft:end_gateway",
+    "minecraft:moving_piston",
+    "minecraft:nether_portal"
   ]
 }

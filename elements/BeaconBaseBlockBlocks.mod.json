@@ -10,6 +10,66 @@
       },
       {
         "value": "Blocks.PISTON_EXTENSION"
+      },
+      {
+        "value": "CUSTOM:FleroviumBlock"
+      },
+      {
+        "value": "Blocks.FIRE"
+      },
+      {
+        "value": "Blocks.SOUL_FIRE"
+      },
+      {
+        "value": "Blocks.CRYING_OBSIDIAN"
+      },
+      {
+        "value": "Blocks.COMMAND_BLOCK"
+      },
+      {
+        "value": "Blocks.REPEATING_COMMAND_BLOCK"
+      },
+      {
+        "value": "Blocks.CHAIN_COMMAND_BLOCK"
+      },
+      {
+        "value": "Blocks.END_GATEWAY"
+      },
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      },
+      {
+        "value": "Blocks.STRUCTURE_BLOCK#1"
+      },
+      {
+        "value": "Blocks.STRUCTURE_BLOCK#2"
+      },
+      {
+        "value": "Blocks.STRUCTURE_BLOCK#3"
+      },
+      {
+        "value": "Blocks.STRUCTURE_BLOCK#4"
+      },
+      {
+        "value": "Blocks.BARRIER"
+      },
+      {
+        "value": "Blocks.STRUCTURE_VOID"
+      },
+      {
+        "value": "Blocks.END_PORTAL"
+      },
+      {
+        "value": "Blocks.PORTAL"
+      },
+      {
+        "value": "Blocks.END_PORTAL_FRAME"
+      },
+      {
+        "value": "Blocks.BEACON"
+      },
+      {
+        "value": "CUSTOM:Flerovium"
       }
     ],
     "functions": [],

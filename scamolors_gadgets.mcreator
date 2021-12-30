@@ -468,39 +468,6 @@
       "registry_name": "colossus"
     },
     {
-      "name": "PulsarBurst",
-      "type": "procedure",
-      "sortid": 35,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "pulsar_burst",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "CrystalOfUndying",
       "type": "item",
       "sortid": 35,
@@ -755,6 +722,23 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "flerovium_block"
+    },
+    {
+      "name": "CrystalStaffProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_staff_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -894,7 +878,7 @@
   "workspaceSettings": {
     "modid": "scamolors_gadgets",
     "modName": "Scamolor\u0027s Gadgets",
-    "version": "1.0.2a",
+    "version": "1.0.2b",
     "description": "A mod that adds some new stuff",
     "author": "Scamolor",
     "websiteURL": "https://github.com/Scamolor",

@@ -2,14 +2,17 @@
 package net.hyperzone.scamolorsgadgets.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.IWorldReader;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.pathfinding.PathNodeType;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
+import net.minecraft.entity.MobEntity;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
@@ -41,7 +44,8 @@ public class FleroviumBlockBlock extends ScamolorsGadgetsModElements.ModElement 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.METAL).hardnessAndResistance(300f, 10100f).setLightLevel(s -> 1)
-					.slipperiness(0.3f).setNeedsPostProcessing((bs, br, bp) -> true).setEmmisiveRendering((bs, br, bp) -> true));
+					.harvestLevel(4).harvestTool(ToolType.PICKAXE).setRequiresTool().slipperiness(0.3f).setNeedsPostProcessing((bs, br, bp) -> true)
+					.setEmmisiveRendering((bs, br, bp) -> true));
 			setRegistryName("flerovium_block");
 		}
 
@@ -57,12 +61,17 @@ public class FleroviumBlockBlock extends ScamolorsGadgetsModElements.ModElement 
 
 		@Override
 		public float getEnchantPowerBonus(BlockState state, IWorldReader world, BlockPos pos) {
-			return 2f;
+			return 2.1f;
 		}
 
 		@Override
 		public MaterialColor getMaterialColor() {
 			return MaterialColor.LAPIS;
+		}
+
+		@Override
+		public PathNodeType getAiPathNodeType(BlockState state, IBlockReader world, BlockPos pos, MobEntity entity) {
+			return PathNodeType.BLOCKED;
 		}
 
 		@Override

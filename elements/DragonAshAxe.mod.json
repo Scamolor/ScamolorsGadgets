@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "dragonash_axe",
+    "texture": "dragonaxe",
     "customModelName": "Normal",
     "name": "Protostellar Axe",
     "specialInfo": [],

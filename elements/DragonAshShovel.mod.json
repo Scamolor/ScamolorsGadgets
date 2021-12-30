@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "dragonash_shovel",
+    "texture": "dragonshovel",
     "customModelName": "Normal",
     "name": "Protostellar Shovel",
     "specialInfo": [],

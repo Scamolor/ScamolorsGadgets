@@ -2,8 +2,13 @@
   "replace": false,
   "values": [
     "scamolors_gadgets:bait_block",
+    "minecraft:piston_head",
+    "scamolors_gadgets:flerovium_block",
     "minecraft:spawner",
+    "minecraft:end_gateway",
     "scamolors_gadgets:cloner",
-    "scamolors_gadgets:flerovium"
+    "scamolors_gadgets:flerovium",
+    "minecraft:moving_piston",
+    "minecraft:nether_portal"
   ]
 }

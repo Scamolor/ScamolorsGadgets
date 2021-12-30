@@ -16,6 +16,21 @@
       },
       {
         "value": "CUSTOM:Flerovium"
+      },
+      {
+        "value": "Blocks.PORTAL"
+      },
+      {
+        "value": "Blocks.END_GATEWAY"
+      },
+      {
+        "value": "CUSTOM:FleroviumBlock"
+      },
+      {
+        "value": "Blocks.PISTON_EXTENSION"
+      },
+      {
+        "value": "Blocks.PISTON_HEAD"
       }
     ],
     "functions": [],

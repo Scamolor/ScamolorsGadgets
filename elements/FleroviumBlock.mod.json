@@ -41,13 +41,13 @@
     "creativeTab": {
       "value": "CUSTOM:ScamolorGadgets"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "enchantPowerBonus": 2.0,
+    "enchantPowerBonus": 2.1,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
     "lightOpacity": 15,
@@ -66,7 +66,7 @@
       "value": ""
     },
     "offsetType": "NONE",
-    "aiPathNodeType": "DEFAULT",
+    "aiPathNodeType": "BLOCKED",
     "beaconColorModifier": {
       "value": -11655456,
       "falpha": 0.0
@@ -100,7 +100,7 @@
     },
     "luminance": 1,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 4,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
