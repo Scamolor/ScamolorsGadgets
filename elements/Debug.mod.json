@@ -2,7 +2,7 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "debug2",
+    "texture": "debug",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -63,7 +63,7 @@
     "emittedRedstonePower": {
       "fixedValue": 5.0
     },
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "TNT",
     "creativePickItem": {
       "value": ""
     },

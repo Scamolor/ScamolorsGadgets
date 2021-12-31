@@ -2,7 +2,7 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "brokenblock",
+    "texture": "buffer",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -13,7 +13,7 @@
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": true,
-    "itemTexture": "destroy_stage_6",
+    "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -32,15 +32,12 @@
         "subtract": false
       }
     ],
-    "name": "Antiblock",
+    "name": "Buffer",
     "specialInfo": [
-      "In America",
-      "tool break block",
-      "but in Soviet Russia",
-      "block break tool!"
+      "Block with a single inventory slot"
     ],
-    "hardness": 1.2,
-    "resistance": 15.0,
+    "hardness": 44.0,
+    "resistance": 166.0,
     "hasGravity": false,
     "isWaterloggable": true,
     "creativeTab": {
@@ -52,37 +49,37 @@
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "enchantPowerBonus": 1.0,
-    "plantsGrowOn": true,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "GLASS"
+      "value": "ROCK"
     },
     "tickRate": 10,
-    "tickRandomly": false,
+    "tickRandomly": true,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "AIR",
+    "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "Blocks.END_PORTAL"
+      "value": "Blocks.PISTON_EXTENSION"
     },
     "offsetType": "NONE",
-    "aiPathNodeType": "UNPASSABLE_RAIL",
+    "aiPathNodeType": "BLOCKED",
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
-    "slipperiness": 2.0,
-    "speedFactor": 2.0,
-    "jumpFactor": 2.0,
+    "slipperiness": 0.7,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
     "reactionToPushing": "IGNORE",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GLASS"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""
@@ -99,9 +96,9 @@
     "fallSound": {
       "value": ""
     },
-    "luminance": 0,
+    "luminance": 1,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 0,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -109,10 +106,10 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "hasInventory": false,
-    "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": false,
-    "inventorySize": 9,
+    "hasInventory": true,
+    "guiBoundTo": "BufferGUI",
+    "openGUIOnRightClick": true,
+    "inventorySize": 1,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
@@ -126,9 +123,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onDestroyedByPlayer": {
-      "name": "BrokenBlockDestroyedByPlayer"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],

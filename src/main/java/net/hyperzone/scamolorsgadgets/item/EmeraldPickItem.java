@@ -27,7 +27,7 @@ public class EmeraldPickItem extends ScamolorsGadgetsModElements.ModElement {
 	public static final Item block = null;
 
 	public EmeraldPickItem(ScamolorsGadgetsModElements instance) {
-		super(instance, 6);
+		super(instance, 15);
 	}
 
 	@Override

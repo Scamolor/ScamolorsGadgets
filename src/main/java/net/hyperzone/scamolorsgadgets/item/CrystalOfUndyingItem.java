@@ -25,7 +25,7 @@ public class CrystalOfUndyingItem extends ScamolorsGadgetsModElements.ModElement
 	public static final Item block = null;
 
 	public CrystalOfUndyingItem(ScamolorsGadgetsModElements instance) {
-		super(instance, 35);
+		super(instance, 6);
 	}
 
 	@Override

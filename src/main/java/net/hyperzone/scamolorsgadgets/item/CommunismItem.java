@@ -20,7 +20,7 @@ public class CommunismItem extends ScamolorsGadgetsModElements.ModElement {
 	public static final Item block = null;
 
 	public CommunismItem(ScamolorsGadgetsModElements instance) {
-		super(instance, 4);
+		super(instance, 1);
 	}
 
 	@Override

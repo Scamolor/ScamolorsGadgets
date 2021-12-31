@@ -25,7 +25,7 @@ public class ProtostarDustItem extends ScamolorsGadgetsModElements.ModElement {
 	public static final Item block = null;
 
 	public ProtostarDustItem(ScamolorsGadgetsModElements instance) {
-		super(instance, 15);
+		super(instance, 3);
 	}
 
 	@Override

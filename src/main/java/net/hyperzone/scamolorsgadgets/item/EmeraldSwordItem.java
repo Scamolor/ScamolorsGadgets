@@ -27,7 +27,7 @@ public class EmeraldSwordItem extends ScamolorsGadgetsModElements.ModElement {
 	public static final Item block = null;
 
 	public EmeraldSwordItem(ScamolorsGadgetsModElements instance) {
-		super(instance, 8);
+		super(instance, 22);
 	}
 
 	@Override

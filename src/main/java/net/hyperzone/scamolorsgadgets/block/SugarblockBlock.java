@@ -28,7 +28,7 @@ public class SugarblockBlock extends ScamolorsGadgetsModElements.ModElement {
 	public static final Block block = null;
 
 	public SugarblockBlock(ScamolorsGadgetsModElements instance) {
-		super(instance, 43);
+		super(instance, 8);
 	}
 
 	@Override

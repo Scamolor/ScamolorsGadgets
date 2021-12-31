@@ -20,7 +20,7 @@ public class DragonAshSwordItem extends ScamolorsGadgetsModElements.ModElement {
 	public static final Item block = null;
 
 	public DragonAshSwordItem(ScamolorsGadgetsModElements instance) {
-		super(instance, 18);
+		super(instance, 23);
 	}
 
 	@Override

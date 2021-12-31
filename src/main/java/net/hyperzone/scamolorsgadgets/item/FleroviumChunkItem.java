@@ -17,7 +17,7 @@ public class FleroviumChunkItem extends ScamolorsGadgetsModElements.ModElement {
 	public static final Item block = null;
 
 	public FleroviumChunkItem(ScamolorsGadgetsModElements instance) {
-		super(instance, 51);
+		super(instance, 24);
 	}
 
 	@Override

@@ -14,7 +14,7 @@ public class TestingGameRuleGameRule extends ScamolorsGadgetsModElements.ModElem
 			create(true));
 
 	public TestingGameRuleGameRule(ScamolorsGadgetsModElements instance) {
-		super(instance, 25);
+		super(instance, 38);
 	}
 
 	public static GameRules.RuleType<GameRules.BooleanValue> create(boolean defaultValue) {

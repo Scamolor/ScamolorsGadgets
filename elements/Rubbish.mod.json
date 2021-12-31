@@ -18,6 +18,12 @@
       },
       {
         "value": "Items.FEATHER"
+      },
+      {
+        "value": "Items.RABBIT"
+      },
+      {
+        "value": "Blocks.WEB"
       }
     ],
     "blocks": [],

@@ -13,7 +13,7 @@ import net.hyperzone.scamolorsgadgets.ScamolorsGadgetsModElements;
 @ScamolorsGadgetsModElements.ModElement.Tag
 public class ScamolorGadgetsItemGroup extends ScamolorsGadgetsModElements.ModElement {
 	public ScamolorGadgetsItemGroup(ScamolorsGadgetsModElements instance) {
-		super(instance, 30);
+		super(instance, 43);
 	}
 
 	@Override

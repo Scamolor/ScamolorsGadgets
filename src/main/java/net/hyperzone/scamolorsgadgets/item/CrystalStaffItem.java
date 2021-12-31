@@ -48,7 +48,7 @@ public class CrystalStaffItem extends ScamolorsGadgetsModElements.ModElement {
 			.size(0.5f, 0.5f)).build("entitybulletcrystal_staff").setRegistryName("entitybulletcrystal_staff");
 
 	public CrystalStaffItem(ScamolorsGadgetsModElements instance) {
-		super(instance, 31);
+		super(instance, 5);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new CrystalStaffRenderer.ModelRegisterHandler());
 	}
 

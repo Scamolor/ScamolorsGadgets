@@ -36,7 +36,7 @@ public class BaitBlockBlock extends ScamolorsGadgetsModElements.ModElement {
 	public static final Block block = null;
 
 	public BaitBlockBlock(ScamolorsGadgetsModElements instance) {
-		super(instance, 30);
+		super(instance, 4);
 	}
 
 	@Override

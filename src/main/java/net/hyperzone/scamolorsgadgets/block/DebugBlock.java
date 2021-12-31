@@ -20,6 +20,7 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.entity.MobEntity;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.material.PushReaction;
+import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
@@ -37,7 +38,7 @@ public class DebugBlock extends ScamolorsGadgetsModElements.ModElement {
 	public static final Block block = null;
 
 	public DebugBlock(ScamolorsGadgetsModElements instance) {
-		super(instance, 63);
+		super(instance, 13);
 	}
 
 	@Override
@@ -90,6 +91,11 @@ public class DebugBlock extends ScamolorsGadgetsModElements.ModElement {
 		@Override
 		public int getFlammability(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
 			return 1;
+		}
+
+		@Override
+		public MaterialColor getMaterialColor() {
+			return MaterialColor.TNT;
 		}
 
 		@Override

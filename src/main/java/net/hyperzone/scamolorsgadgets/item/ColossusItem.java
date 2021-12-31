@@ -26,7 +26,7 @@ public class ColossusItem extends ScamolorsGadgetsModElements.ModElement {
 	public static final Item block = null;
 
 	public ColossusItem(ScamolorsGadgetsModElements instance) {
-		super(instance, 34);
+		super(instance, 20);
 	}
 
 	@Override

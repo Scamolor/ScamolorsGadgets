@@ -14,7 +14,7 @@ public class DisableBabyZombiesGameRule extends ScamolorsGadgetsModElements.ModE
 			create(false));
 
 	public DisableBabyZombiesGameRule(ScamolorsGadgetsModElements instance) {
-		super(instance, 2);
+		super(instance, 26);
 	}
 
 	public static GameRules.RuleType<GameRules.BooleanValue> create(boolean defaultValue) {

@@ -34,7 +34,7 @@ public class CompressedGunpowderBlock extends ScamolorsGadgetsModElements.ModEle
 	public static final Block block = null;
 
 	public CompressedGunpowderBlock(ScamolorsGadgetsModElements instance) {
-		super(instance, 47);
+		super(instance, 9);
 	}
 
 	@Override

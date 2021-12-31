@@ -32,7 +32,7 @@ public class UltradenseQuartzBlock extends ScamolorsGadgetsModElements.ModElemen
 	public static final Block block = null;
 
 	public UltradenseQuartzBlock(ScamolorsGadgetsModElements instance) {
-		super(instance, 40);
+		super(instance, 7);
 	}
 
 	@Override

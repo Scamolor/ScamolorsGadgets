@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "scamolors_gadgets:blocks/debug2",
-    "particle": "scamolors_gadgets:blocks/debug2"
+    "all": "scamolors_gadgets:blocks/debug",
+    "particle": "scamolors_gadgets:blocks/debug"
   }
 }

@@ -1,7 +1,9 @@
 {
   "replace": false,
   "values": [
+    "minecraft:cobweb",
     "minecraft:bone",
+    "minecraft:rabbit",
     "minecraft:chicken",
     "minecraft:feather",
     "minecraft:rotten_flesh",

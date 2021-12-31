@@ -31,7 +31,7 @@ public class FleroviumBlockBlock extends ScamolorsGadgetsModElements.ModElement 
 	public static final Block block = null;
 
 	public FleroviumBlockBlock(ScamolorsGadgetsModElements instance) {
-		super(instance, 58);
+		super(instance, 11);
 	}
 
 	@Override

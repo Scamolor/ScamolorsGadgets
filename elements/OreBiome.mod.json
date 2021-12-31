@@ -38,7 +38,7 @@
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
     },
-    "particlesProbability": 12.5,
+    "particlesProbability": 1.25,
     "biomeCategory": "EXTREME_HILLS",
     "parent": {
       "value": "mutated_extreme_hills_with_trees"
@@ -57,16 +57,16 @@
       "RARE",
       "MODIFIED"
     ],
-    "grassPerChunk": 4,
+    "grassPerChunk": 0,
     "seagrassPerChunk": 0,
-    "flowersPerChunk": 4,
-    "mushroomsPerChunk": 0,
+    "flowersPerChunk": 2,
+    "mushroomsPerChunk": 7,
     "bigMushroomsChunk": 0,
     "sandPatchesPerChunk": 3,
-    "gravelPatchesPerChunk": 7,
-    "reedsPerChunk": 0,
-    "cactiPerChunk": 0,
-    "treesPerChunk": 1,
+    "gravelPatchesPerChunk": 10,
+    "reedsPerChunk": 1,
+    "cactiPerChunk": 2,
+    "treesPerChunk": 0,
     "vanillaTreeType": "Default",
     "treeType": 0,
     "minHeight": 7,
@@ -108,7 +108,26 @@
       "ExtraGoldOre",
       "ExtraEmeraldOre",
       "Ores",
-      "Ores"
+      "Ores",
+      "Bamboo",
+      "DeadBushes",
+      "Caves",
+      "Caves",
+      "Ores",
+      "ExtraEmeraldOre",
+      "ExtraEmeraldOre",
+      "ExtraGoldOre",
+      "ExtraGoldOre",
+      "Ores",
+      "Ores",
+      "Ores",
+      "Fossils",
+      "Icebergs",
+      "MonsterRooms",
+      "TaigaRocks",
+      "SedimentDisks",
+      "Bamboo",
+      "SwampClayDisks"
     ],
     "spawnEntries": [
       {
@@ -164,6 +183,33 @@
         "maxGroup": 16,
         "weight": 65,
         "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityCreeper"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityEvokerFangs"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 5,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityPanda"
+        },
+        "minGroup": 4,
+        "maxGroup": 10,
+        "weight": 20,
+        "spawnType": "creature"
       }
     ]
   }

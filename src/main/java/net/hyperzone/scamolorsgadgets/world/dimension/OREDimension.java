@@ -85,7 +85,7 @@ public class OREDimension extends ScamolorsGadgetsModElements.ModElement {
 	public static final CustomPortalBlock portal = null;
 
 	public OREDimension(ScamolorsGadgetsModElements instance) {
-		super(instance, 37);
+		super(instance, 21);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new POIRegisterHandler());
 	}
