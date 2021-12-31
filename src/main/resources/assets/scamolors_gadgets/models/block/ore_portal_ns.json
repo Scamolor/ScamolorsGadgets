@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "scamolors_gadgets:blocks/ether_still",
-    "portal": "scamolors_gadgets:blocks/ether_still"
+    "particle": "scamolors_gadgets:blocks/boringportal",
+    "portal": "scamolors_gadgets:blocks/boringportal"
   },
   "elements": [
     {

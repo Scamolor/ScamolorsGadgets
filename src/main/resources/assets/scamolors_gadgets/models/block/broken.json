@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "scamolors_gadgets:blocks/brokenblock",
+    "particle": "scamolors_gadgets:blocks/brokenblock"
+  }
+}

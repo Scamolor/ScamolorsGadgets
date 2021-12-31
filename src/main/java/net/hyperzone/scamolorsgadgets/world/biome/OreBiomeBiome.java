@@ -80,6 +80,7 @@ public class OreBiomeBiome extends ScamolorsGadgetsModElements.ModElement {
 				biomeGenerationSettings.withStructure(StructureFeatures.JUNGLE_PYRAMID);
 				biomeGenerationSettings.withStructure(StructureFeatures.IGLOO);
 				biomeGenerationSettings.withStructure(StructureFeatures.MONUMENT);
+				biomeGenerationSettings.withStructure(StructureFeatures.SHIPWRECK_BEACHED);
 				biomeGenerationSettings.withStructure(StructureFeatures.BURIED_TREASURE);
 				biomeGenerationSettings.withStructure(StructureFeatures.OCEAN_RUIN_COLD);
 				biomeGenerationSettings.withStructure(StructureFeatures.NETHER_FOSSIL);
@@ -116,7 +117,12 @@ public class OreBiomeBiome extends ScamolorsGadgetsModElements.ModElement {
 				DefaultBiomeFeatures.withOverworldOres(biomeGenerationSettings);
 				DefaultBiomeFeatures.withOverworldOres(biomeGenerationSettings);
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
-				mobSpawnInfo.withSpawner(EntityClassification.MONSTER, new MobSpawnInfo.Spawners(EntityType.ILLUSIONER, 1, 1, 1));
+				mobSpawnInfo.withSpawner(EntityClassification.MONSTER, new MobSpawnInfo.Spawners(EntityType.ILLUSIONER, 3, 1, 2));
+				mobSpawnInfo.withSpawner(EntityClassification.MONSTER, new MobSpawnInfo.Spawners(EntityType.GIANT, 2, 1, 1));
+				mobSpawnInfo.withSpawner(EntityClassification.CREATURE, new MobSpawnInfo.Spawners(EntityType.MOOSHROOM, 50, 2, 24));
+				mobSpawnInfo.withSpawner(EntityClassification.CREATURE, new MobSpawnInfo.Spawners(EntityType.LLAMA, 20, 1, 10));
+				mobSpawnInfo.withSpawner(EntityClassification.MISC, new MobSpawnInfo.Spawners(EntityType.ZOMBIE_HORSE, 1, 1, 2));
+				mobSpawnInfo.withSpawner(EntityClassification.MONSTER, new MobSpawnInfo.Spawners(EntityType.POLAR_BEAR, 65, 1, 16));
 				biome = new Biome.Builder().precipitation(Biome.RainType.SNOW).category(Biome.Category.EXTREME_HILLS).depth(0.7f).scale(0f)
 						.temperature(-1f).downfall(0.8f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
 						.withGenerationSettings(biomeGenerationSettings.build()).build();

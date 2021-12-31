@@ -9,8 +9,10 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.common.ObfuscationReflectionHelper;
 import net.minecraftforge.fml.DeferredWorkQueue;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.common.util.ITeleporter;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -53,18 +55,24 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 import net.minecraft.block.AbstractBlock;
 
+import net.hyperzone.scamolorsgadgets.procedures.OREPlayerEntersDimensionProcedure;
 import net.hyperzone.scamolorsgadgets.item.OREItem;
+import net.hyperzone.scamolorsgadgets.block.DebugBlock;
 import net.hyperzone.scamolorsgadgets.ScamolorsGadgetsModElements;
 
 import javax.annotation.Nullable;
 
+import java.util.stream.Stream;
 import java.util.function.Predicate;
 import java.util.function.Function;
 import java.util.Set;
 import java.util.Random;
 import java.util.Optional;
+import java.util.Map;
 import java.util.HashSet;
+import java.util.HashMap;
 import java.util.Comparator;
+import java.util.AbstractMap;
 
 import it.unimi.dsi.fastutil.objects.Object2ObjectMap;
 
@@ -78,6 +86,7 @@ public class OREDimension extends ScamolorsGadgetsModElements.ModElement {
 
 	public OREDimension(ScamolorsGadgetsModElements instance) {
 		super(instance, 37);
+		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new POIRegisterHandler());
 	}
 
@@ -150,7 +159,7 @@ public class OREDimension extends ScamolorsGadgetsModElements.ModElement {
 	public static class CustomPortalBlock extends NetherPortalBlock {
 		public CustomPortalBlock() {
 			super(Block.Properties.create(Material.PORTAL).doesNotBlockMovement().tickRandomly().hardnessAndResistance(-1.0F).sound(SoundType.GLASS)
-					.setLightLevel(s -> 5).noDrops());
+					.setLightLevel(s -> 8).noDrops());
 			setRegistryName("ore_portal");
 		}
 
@@ -232,7 +241,7 @@ public class OREDimension extends ScamolorsGadgetsModElements.ModElement {
 
 	public static class CustomPortalSize {
 		private static final AbstractBlock.IPositionPredicate POSITION_PREDICATE = (state, blockReader, pos) -> {
-			return state.getBlock() == Blocks.MAGMA_BLOCK;
+			return state.getBlock() == DebugBlock.block;
 		};
 		private final IWorld world;
 		private final Direction.Axis axis;
@@ -504,7 +513,7 @@ public class OREDimension extends ScamolorsGadgetsModElements.ModElement {
 				for (int l1 = -1; l1 < 2; ++l1) {
 					for (int k2 = 0; k2 < 2; ++k2) {
 						for (int i3 = -1; i3 < 3; ++i3) {
-							BlockState blockstate1 = i3 < 0 ? Blocks.MAGMA_BLOCK.getDefaultState() : Blocks.AIR.getDefaultState();
+							BlockState blockstate1 = i3 < 0 ? DebugBlock.block.getDefaultState() : Blocks.AIR.getDefaultState();
 							blockpos$mutable.setAndOffset(blockpos, k2 * direction.getXOffset() + l1 * direction1.getXOffset(), i3,
 									k2 * direction.getZOffset() + l1 * direction1.getZOffset());
 							this.world.setBlockState(blockpos$mutable, blockstate1);
@@ -516,7 +525,7 @@ public class OREDimension extends ScamolorsGadgetsModElements.ModElement {
 				for (int i2 = -1; i2 < 4; ++i2) {
 					if (k1 == -1 || k1 == 2 || i2 == -1 || i2 == 3) {
 						blockpos$mutable.setAndOffset(blockpos, k1 * direction.getXOffset(), i2, k1 * direction.getZOffset());
-						this.world.setBlockState(blockpos$mutable, Blocks.MAGMA_BLOCK.getDefaultState(), 3);
+						this.world.setBlockState(blockpos$mutable, DebugBlock.block.getDefaultState(), 3);
 					}
 				}
 			}
@@ -612,6 +621,22 @@ public class OREDimension extends ScamolorsGadgetsModElements.ModElement {
 			} else {
 				return optional;
 			}
+		}
+	}
+
+	@SubscribeEvent
+	public void onPlayerChangedDimensionEvent(PlayerEvent.PlayerChangedDimensionEvent event) {
+		Entity entity = event.getPlayer();
+		World world = entity.world;
+		double x = entity.getPosX();
+		double y = entity.getPosY();
+		double z = entity.getPosZ();
+		if (event.getTo() == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("scamolors_gadgets:ore"))) {
+
+			OREPlayerEntersDimensionProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 	}
 }

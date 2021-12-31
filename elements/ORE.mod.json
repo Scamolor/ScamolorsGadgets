@@ -7,7 +7,7 @@
         "value": "CUSTOM:OreBiome"
       }
     ],
-    "worldGenType": "Normal world gen",
+    "worldGenType": "Nether like gen",
     "mainFillerBlock": {
       "value": "Blocks.STONE#3"
     },
@@ -21,13 +21,16 @@
     "sleepResult": "ALLOW",
     "hasSkyLight": true,
     "imitateOverworldBehaviour": true,
+    "onPlayerEntersDimension": {
+      "name": "OREPlayerEntersDimension"
+    },
     "portalFrame": {
-      "value": "Blocks.MAGMA"
+      "value": "CUSTOM:Debug"
     },
     "portalParticles": {
       "value": "EXPLOSION_NORMAL"
     },
-    "portalLuminance": 5,
+    "portalLuminance": 8,
     "portalSound": {
       "value": "block.portal.ambient"
     },
@@ -36,7 +39,7 @@
       "value": "TOOLS"
     },
     "texture": "igniter",
-    "portalTexture": "ether_still",
+    "portalTexture": "boringportal",
     "enablePortal": true
   }
 }

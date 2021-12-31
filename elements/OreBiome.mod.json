@@ -2,7 +2,7 @@
   "_fv": 24,
   "_type": "biome",
   "definition": {
-    "name": "Ore Biome",
+    "name": "Boring Lands",
     "groundBlock": {
       "value": "Blocks.STONE#3"
     },
@@ -94,7 +94,7 @@
     "spawnIgloo": true,
     "spawnOceanMonument": true,
     "spawnShipwreck": false,
-    "spawnShipwreckBeached": false,
+    "spawnShipwreckBeached": true,
     "spawnBuriedTreasure": true,
     "oceanRuinType": "COLD",
     "spawnNetherBridge": false,
@@ -116,8 +116,53 @@
           "value": "EntityIllusionIllager"
         },
         "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 3,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityGiantZombie"
+        },
+        "minGroup": 1,
         "maxGroup": 1,
+        "weight": 2,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityMooshroom"
+        },
+        "minGroup": 2,
+        "maxGroup": 24,
+        "weight": 50,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityLlama"
+        },
+        "minGroup": 1,
+        "maxGroup": 10,
+        "weight": 20,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityZombieHorse"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
         "weight": 1,
+        "spawnType": "misc"
+      },
+      {
+        "entity": {
+          "value": "EntityPolarBear"
+        },
+        "minGroup": 1,
+        "maxGroup": 16,
+        "weight": 65,
         "spawnType": "monster"
       }
     ]

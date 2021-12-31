@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "the_boring_lands": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 2000
+  },
+  "parent": "minecraft:story/enter_the_end"
+}

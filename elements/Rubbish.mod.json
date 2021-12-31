@@ -1,0 +1,29 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "Items.BONE"
+      },
+      {
+        "value": "Items.ROTTEN_FLESH"
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "Items.CHICKEN"
+      },
+      {
+        "value": "Items.FEATHER"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "rubbish",
+    "namespace": "forge"
+  }
+}
