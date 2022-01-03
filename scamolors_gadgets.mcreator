@@ -852,6 +852,53 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "buffer"
+    },
+    {
+      "name": "CrucibleRelease",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crucible_release",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrucibleUI",
+      "type": "gui",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crucible_ui"
+    },
+    {
+      "name": "Crucible",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crucible"
     }
   ],
   "variable_elements": [
@@ -907,6 +954,7 @@
       "item.scamolors_gadgets.dragon_ash_sword": "Protostellar Sword",
       "block.scamolors_gadgets.debug": "Funky Block",
       "itemGroup.tabscamolor_gadgets": "Scamolor\u0027s Gadgets",
+      "block.scamolors_gadgets.crucible": "Crucible",
       "block.scamolors_gadgets.cloner": "Cloner",
       "block.scamolors_gadgets.broken": "Antiblock",
       "block.scamolors_gadgets.ultradense_quartz": "Ultradense Quartz",
@@ -944,6 +992,7 @@
       "item.scamolors_gadgets.dragon_ash_sword": "Protostellar Sword",
       "block.scamolors_gadgets.debug": "Funky Block",
       "itemGroup.tabscamolor_gadgets": "Scamolor\u0027s Gadgets",
+      "block.scamolors_gadgets.crucible": "Crucible",
       "block.scamolors_gadgets.cloner": "Cloner",
       "block.scamolors_gadgets.broken": "Antiblock",
       "block.scamolors_gadgets.ultradense_quartz": "Ultradense Quartz",
@@ -981,6 +1030,7 @@
       "item.scamolors_gadgets.dragon_ash_sword": "Protostellar Sword",
       "block.scamolors_gadgets.debug": "Funky Block",
       "itemGroup.tabscamolor_gadgets": "Scamolor\u0027s Gadgets",
+      "block.scamolors_gadgets.crucible": "Crucible",
       "block.scamolors_gadgets.cloner": "Cloner",
       "block.scamolors_gadgets.broken": "Antiblock",
       "block.scamolors_gadgets.ultradense_quartz": "Ultradense Quartz",

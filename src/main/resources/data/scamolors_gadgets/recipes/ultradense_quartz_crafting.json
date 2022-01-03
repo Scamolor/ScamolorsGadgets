@@ -7,31 +7,31 @@
   ],
   "key": {
     "0": {
-      "tag": "forge:ores/quartz"
+      "item": "minecraft:quartz_block"
     },
     "1": {
-      "tag": "forge:ores/quartz"
+      "item": "minecraft:quartz_block"
     },
     "2": {
-      "tag": "forge:ores/quartz"
+      "item": "minecraft:quartz_block"
     },
     "3": {
-      "tag": "forge:ores/quartz"
+      "item": "minecraft:quartz_block"
     },
     "4": {
-      "tag": "forge:ores/quartz"
+      "item": "minecraft:quartz_block"
     },
     "5": {
-      "tag": "forge:ores/quartz"
+      "item": "minecraft:quartz_block"
     },
     "6": {
-      "tag": "forge:ores/quartz"
+      "item": "minecraft:quartz_block"
     },
     "7": {
-      "tag": "forge:ores/quartz"
+      "item": "minecraft:quartz_block"
     },
     "8": {
-      "tag": "forge:ores/quartz"
+      "item": "minecraft:quartz_block"
     }
   },
   "result": {

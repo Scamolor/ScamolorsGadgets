@@ -10,31 +10,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.QUARTZ_BLOCK"
+        "value": "Blocks.QUARTZ_BLOCK#3"
       },
       {
-        "value": "Blocks.QUARTZ_BLOCK"
+        "value": "Blocks.QUARTZ_BLOCK#3"
       },
       {
-        "value": "Blocks.QUARTZ_BLOCK"
+        "value": "Blocks.QUARTZ_BLOCK#3"
       },
       {
-        "value": "Blocks.QUARTZ_BLOCK"
+        "value": "Blocks.QUARTZ_BLOCK#3"
       },
       {
-        "value": "Blocks.QUARTZ_BLOCK"
+        "value": "Blocks.QUARTZ_BLOCK#3"
       },
       {
-        "value": "Blocks.QUARTZ_BLOCK"
+        "value": "Blocks.QUARTZ_BLOCK#3"
       },
       {
-        "value": "Blocks.QUARTZ_BLOCK"
+        "value": "Blocks.QUARTZ_BLOCK#3"
       },
       {
-        "value": "Blocks.QUARTZ_BLOCK"
+        "value": "Blocks.QUARTZ_BLOCK#3"
       },
       {
-        "value": "Blocks.QUARTZ_BLOCK"
+        "value": "Blocks.QUARTZ_BLOCK#3"
       }
     ],
     "recipeReturnStack": {
