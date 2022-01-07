@@ -1121,7 +1121,7 @@
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "modPicture": "export",
+    "modPicture": "icon",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
