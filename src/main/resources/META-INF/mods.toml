@@ -4,7 +4,7 @@ license="Apache License version 2.0"
 
 [[mods]]
 modId="scamolors_gadgets"
-version="1.0.2b"
+version="-1.0R"
 displayName="Scamolor's Gadgets"
 credits="Made by Scamolor"
 displayURL="https://github.com/Scamolor"

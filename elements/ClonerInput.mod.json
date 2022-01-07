@@ -79,7 +79,7 @@
         "data": {
           "text": "Toggle",
           "onClick": {
-            "name": "ToggleCloner"
+            "name": "ClonerTogglerV3"
           },
           "width": 55,
           "height": 20,

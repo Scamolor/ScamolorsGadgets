@@ -28,7 +28,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.ScreenManager;
 
-import net.hyperzone.scamolorsgadgets.procedures.ToggleClonerProcedure;
+import net.hyperzone.scamolorsgadgets.procedures.ClonerTogglerV3Procedure;
 import net.hyperzone.scamolorsgadgets.ScamolorsGadgetsModElements;
 import net.hyperzone.scamolorsgadgets.ScamolorsGadgetsMod;
 
@@ -378,7 +378,7 @@ public class ClonerInputGui extends ScamolorsGadgetsModElements.ModElement {
 			return;
 		if (buttonID == 0) {
 
-			ToggleClonerProcedure.executeProcedure(Stream
+			ClonerTogglerV3Procedure.executeProcedure(Stream
 					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
 							new AbstractMap.SimpleEntry<>("z", z))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));

@@ -5,12 +5,12 @@
     "renderType": 0,
     "texture": "dragon_dust",
     "customModelName": "Normal",
-    "name": "Dragon's Ash",
+    "name": "Draconic Remnant",
     "rarity": "EPIC",
     "creativeTab": {
       "value": "CUSTOM:ScamolorGadgets"
     },
-    "stackSize": 15,
+    "stackSize": 48,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -22,8 +22,8 @@
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "enableMeleeDamage": false,
-    "damageVsEntity": 0.0,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 1.0,
     "specialInfo": [
       "The fallen ashes of the Dragon"
     ],

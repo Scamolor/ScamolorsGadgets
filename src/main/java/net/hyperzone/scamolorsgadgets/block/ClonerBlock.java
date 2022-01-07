@@ -64,9 +64,9 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.hyperzone.scamolorsgadgets.procedures.SimplifiedClonerProcedure;
 import net.hyperzone.scamolorsgadgets.procedures.ClonerTaggingProcedure;
 import net.hyperzone.scamolorsgadgets.procedures.ClonerParticleSpawningConditionProcedure;
-import net.hyperzone.scamolorsgadgets.procedures.AltDupeStarter2Procedure;
 import net.hyperzone.scamolorsgadgets.itemgroup.ScamolorGadgetsItemGroup;
 import net.hyperzone.scamolorsgadgets.gui.ClonerInputGui;
 import net.hyperzone.scamolorsgadgets.ScamolorsGadgetsModElements;
@@ -142,7 +142,7 @@ public class ClonerBlock extends ScamolorsGadgetsModElements.ModElement {
 
 		@Override
 		public float getEnchantPowerBonus(BlockState state, IWorldReader world, BlockPos pos) {
-			return 5f;
+			return 5.5f;
 		}
 
 		@Override
@@ -186,7 +186,7 @@ public class ClonerBlock extends ScamolorsGadgetsModElements.ModElement {
 			int z = pos.getZ();
 			if (world.getRedstonePowerFromNeighbors(new BlockPos(x, y, z)) > 0) {
 
-				AltDupeStarter2Procedure.executeProcedure(Stream
+				SimplifiedClonerProcedure.executeProcedure(Stream
 						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
 								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
 						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));

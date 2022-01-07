@@ -899,6 +899,64 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crucible"
+    },
+    {
+      "name": "SimplifiedCloner",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "simplified_cloner",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ClonerTogglerV3",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cloner_toggler_v_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -1001,7 +1059,7 @@
       "advancements.the_boring_lands.descr": "Access the Boring Lands",
       "item.scamolors_gadgets.colossus": "Colossus",
       "item.scamolors_gadgets.crystal_of_undying": "Crystal Of Undying",
-      "item.scamolors_gadgets.protostar_dust": "Dragon\u0027s Ash",
+      "item.scamolors_gadgets.protostar_dust": "Draconic Remnant",
       "item.scamolors_gadgets.dragon_ash_pickaxe": "Protostellar Pickaxe",
       "item.scamolors_gadgets.ore": "Igniter",
       "block.scamolors_gadgets.buffer": "Buffer",
@@ -1056,7 +1114,7 @@
   "workspaceSettings": {
     "modid": "scamolors_gadgets",
     "modName": "Scamolor\u0027s Gadgets",
-    "version": "1.0.2b",
+    "version": "-1.0R",
     "description": "A mod that adds some new stuff",
     "author": "Scamolor",
     "websiteURL": "https://github.com/Scamolor",

@@ -49,7 +49,7 @@
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "enchantPowerBonus": 5.0,
+    "enchantPowerBonus": 5.5,
     "plantsGrowOn": false,
     "canRedstoneConnect": true,
     "lightOpacity": 13,
@@ -141,7 +141,7 @@
       "name": "ClonerTagging"
     },
     "onRedstoneOn": {
-      "name": "AltDupeStarter2"
+      "name": "SimplifiedCloner"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

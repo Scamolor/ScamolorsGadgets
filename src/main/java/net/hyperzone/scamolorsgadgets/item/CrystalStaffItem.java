@@ -100,7 +100,7 @@ public class CrystalStaffItem extends ScamolorsGadgetsModElements.ModElement {
 				double y = entity.getPosY();
 				double z = entity.getPosZ();
 				if (true) {
-					ArrowCustomEntity entityarrow = shoot(world, entity, random, 6f, 9, 5);
+					ArrowCustomEntity entityarrow = shoot(world, entity, random, 3f, 16, 5);
 					itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 					entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.DISALLOWED;
 				}
@@ -186,9 +186,9 @@ public class CrystalStaffItem extends ScamolorsGadgetsModElements.ModElement {
 		double d0 = target.getPosY() + (double) target.getEyeHeight() - 1.1;
 		double d1 = target.getPosX() - entity.getPosX();
 		double d3 = target.getPosZ() - entity.getPosZ();
-		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 6f * 2, 12.0F);
+		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 3f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setDamage(9);
+		entityarrow.setDamage(16);
 		entityarrow.setKnockbackStrength(5);
 		entityarrow.setIsCritical(true);
 		entityarrow.setFire(100);

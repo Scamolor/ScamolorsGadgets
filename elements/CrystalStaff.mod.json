@@ -25,15 +25,15 @@
     "animation": "none",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "bulletPower": 6.0,
-    "bulletDamage": 9.0,
+    "bulletPower": 3.0,
+    "bulletDamage": 16.0,
     "bulletKnockback": 5,
     "bulletParticles": true,
     "bulletIgnitesFire": true,
     "bulletItemTexture": {
       "value": "CUSTOM:Communism"
     },
-    "bulletModel": "Default",
+    "bulletModel": "Modelcustom_model",
     "customBulletModelTexture": "texture.png"
   }
 }
