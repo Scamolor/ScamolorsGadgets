@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="[36,)"
-license="Apache License version 2.0"
+license="MIT License"
 
 [[mods]]
 modId="scamolors_gadgets"
