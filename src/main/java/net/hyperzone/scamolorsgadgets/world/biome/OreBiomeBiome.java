@@ -58,12 +58,11 @@ public class OreBiomeBiome extends ScamolorsGadgetsModElements.ModElement {
 						.withSkyColor(-16760474).withFoliageColor(10387789).withGrassColor(-3800833)
 						.setAmbientSound(
 								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.anvil.break")))
-						.setAdditionsSound(
-								new SoundAdditionsAmbience(
-										(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.cave")),
-										0.0111D))
-						.setMusic(new BackgroundMusicSelector((net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
-								.getValue(new ResourceLocation("scamolors_gadgets:mojangspecifications")), 12000, 24000, true))
+						.setAdditionsSound(new SoundAdditionsAmbience(
+								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.cave")), 0.0111D))
+						.setMusic(new BackgroundMusicSelector(
+								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("music_disc.far")), 12000,
+								24000, true))
 						.setParticle(new ParticleEffectAmbience(ParticleTypes.EXPLOSION, 0.0125f)).build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(Blocks.DIORITE.getDefaultState(),

@@ -4,9 +4,9 @@ license="MIT License"
 
 [[mods]]
 modId="scamolors_gadgets"
-version="-1.0R"
+version="-1.0.0000001R"
 displayName="Scamolor's Gadgets"
-credits="Made by Scamolor"
+credits="Check modpage for credits, the formatting didn't want to work for me"
 displayURL="https://github.com/Scamolor"
 logoFile="logo.png"
 authors="Scamolor"

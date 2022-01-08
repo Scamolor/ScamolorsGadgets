@@ -18,5 +18,15 @@
         "stream": true
       }
     ]
+  },
+  "warped": {
+    "category": "music",
+    "subtitle": "subtitles.warped",
+    "sounds": [
+      {
+        "name": "scamolors_gadgets:audiomass-output",
+        "stream": true
+      }
+    ]
   }
 }

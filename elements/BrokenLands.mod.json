@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:YouShouldntBeHere"
+      }
+    ],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Broken"
+    },
+    "fluidBlock": {
+      "value": "Blocks.CRYING_OBSIDIAN"
+    },
+    "airColor": {
+      "value": -16764109,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "portalFrame": {
+      "value": "Blocks.LODESTONE"
+    },
+    "portalParticles": {
+      "value": "SPELL_WITCH"
+    },
+    "portalLuminance": 15,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Broken Lands Portal Igniter",
+    "igniterTab": {
+      "value": "CUSTOM:ScamolorGadgets"
+    },
+    "texture": "definitelynotcreatine",
+    "portalTexture": "bsod",
+    "enablePortal": true
+  }
+}

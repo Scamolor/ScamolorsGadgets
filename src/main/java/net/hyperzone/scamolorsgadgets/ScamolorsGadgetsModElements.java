@@ -51,6 +51,8 @@ public class ScamolorsGadgetsModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("scamolors_gadgets", "soviet")));
 		sounds.put(new ResourceLocation("scamolors_gadgets", "mojangspecifications"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("scamolors_gadgets", "mojangspecifications")));
+		sounds.put(new ResourceLocation("scamolors_gadgets", "warped"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("scamolors_gadgets", "warped")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("scamolors_gadgets").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

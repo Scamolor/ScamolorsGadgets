@@ -957,6 +957,27 @@
           }
         ]
       }
+    },
+    {
+      "name": "YouShouldntBeHere",
+      "type": "biome",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "you_shouldnt_be_here"
+    },
+    {
+      "name": "BrokenLands",
+      "type": "dimension",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "broken_lands",
+      "metadata": {
+        "ep": true
+      }
     }
   ],
   "variable_elements": [
@@ -989,6 +1010,14 @@
       ],
       "category": "music",
       "subtitle": "M O J A N G  S P E C I F I C A T I O N S"
+    },
+    {
+      "name": "warped",
+      "files": [
+        "audiomass-output"
+      ],
+      "category": "music",
+      "subtitle": "oh god"
     }
   ],
   "language_map": {
@@ -996,8 +1025,8 @@
       "item.scamolors_gadgets.communism": "Anthem Of The Soviet Union",
       "gamerule.testingGameRule": "Mod Development Rule",
       "item.scamolors_gadgets.communism.desc": "The concentrated essence of Stalin",
-      "item.scamolors_gadgets.emerald_axe": "Emerald Axe",
       "item.scamolors_gadgets.emerald_pick": "Emerald Pickaxe",
+      "item.scamolors_gadgets.emerald_axe": "Emerald Axe",
       "advancements.the_boring_lands.title": "The Boring Lands",
       "gamerule.disableBabyZombies.description": "Prevents the little bastards from spawning",
       "block.scamolors_gadgets.compressed_gunpowder": "Compressed Gunpowder Block",
@@ -1012,9 +1041,11 @@
       "item.scamolors_gadgets.dragon_ash_sword": "Protostellar Sword",
       "block.scamolors_gadgets.debug": "Funky Block",
       "itemGroup.tabscamolor_gadgets": "Scamolor\u0027s Gadgets",
+      "biome.scamolors_gadgets.you_shouldnt_be_here": "You Shouldnt Be Here",
       "block.scamolors_gadgets.crucible": "Crucible",
       "block.scamolors_gadgets.cloner": "Cloner",
       "block.scamolors_gadgets.broken": "Antiblock",
+      "subtitles.warped": "oh god",
       "block.scamolors_gadgets.ultradense_quartz": "Ultradense Quartz",
       "block.scamolors_gadgets.flerovium_block": "Flerovium Block",
       "gamerule.disableBabyZombies": "Cyka Blyat",
@@ -1022,6 +1053,7 @@
       "item.scamolors_gadgets.colossus": "Colossus",
       "item.scamolors_gadgets.crystal_of_undying": "Crystal Of Undying",
       "item.scamolors_gadgets.protostar_dust": "Dragon\u0027s Ash",
+      "item.scamolors_gadgets.broken_lands": "Broken Lands Portal Igniter",
       "item.scamolors_gadgets.dragon_ash_pickaxe": "Protostellar Pickaxe",
       "item.scamolors_gadgets.ore": "Igniter",
       "block.scamolors_gadgets.buffer": "Buffer",
@@ -1034,8 +1066,8 @@
       "item.scamolors_gadgets.communism": "Anthem Of The Soviet Union",
       "gamerule.testingGameRule": "Mod Development Rule",
       "item.scamolors_gadgets.communism.desc": "The concentrated essence of Stalin",
-      "item.scamolors_gadgets.emerald_axe": "Emerald Axe",
       "item.scamolors_gadgets.emerald_pick": "Emerald Pickaxe",
+      "item.scamolors_gadgets.emerald_axe": "Emerald Axe",
       "advancements.the_boring_lands.title": "The Boring Lands",
       "gamerule.disableBabyZombies.description": "Prevents the little bastards from spawning",
       "block.scamolors_gadgets.compressed_gunpowder": "Compressed Gunpowder Block",
@@ -1050,9 +1082,11 @@
       "item.scamolors_gadgets.dragon_ash_sword": "Protostellar Sword",
       "block.scamolors_gadgets.debug": "Funky Block",
       "itemGroup.tabscamolor_gadgets": "Scamolor\u0027s Gadgets",
+      "biome.scamolors_gadgets.you_shouldnt_be_here": "You Shouldnt Be Here",
       "block.scamolors_gadgets.crucible": "Crucible",
       "block.scamolors_gadgets.cloner": "Cloner",
       "block.scamolors_gadgets.broken": "Antiblock",
+      "subtitles.warped": "oh god",
       "block.scamolors_gadgets.ultradense_quartz": "Ultradense Quartz",
       "block.scamolors_gadgets.flerovium_block": "Flerovium Block",
       "gamerule.disableBabyZombies": "Disable Baby Zombies",
@@ -1060,6 +1094,7 @@
       "item.scamolors_gadgets.colossus": "Colossus",
       "item.scamolors_gadgets.crystal_of_undying": "Crystal Of Undying",
       "item.scamolors_gadgets.protostar_dust": "Draconic Remnant",
+      "item.scamolors_gadgets.broken_lands": "Broken Lands Portal Igniter",
       "item.scamolors_gadgets.dragon_ash_pickaxe": "Protostellar Pickaxe",
       "item.scamolors_gadgets.ore": "Igniter",
       "block.scamolors_gadgets.buffer": "Buffer",
@@ -1072,8 +1107,8 @@
       "item.scamolors_gadgets.communism": "Anthem Of The Soviet Union",
       "gamerule.testingGameRule": "Mod Development Rule",
       "item.scamolors_gadgets.communism.desc": "The concentrated essence of Stalin",
-      "item.scamolors_gadgets.emerald_axe": "Emerald Axe",
       "item.scamolors_gadgets.emerald_pick": "Emerald Pickaxe",
+      "item.scamolors_gadgets.emerald_axe": "Emerald Axe",
       "advancements.the_boring_lands.title": "The Boring Lands",
       "gamerule.disableBabyZombies.description": "Prevents the little bastards from spawning",
       "block.scamolors_gadgets.compressed_gunpowder": "Compressed Gunpowder Block",
@@ -1088,9 +1123,11 @@
       "item.scamolors_gadgets.dragon_ash_sword": "Protostellar Sword",
       "block.scamolors_gadgets.debug": "Funky Block",
       "itemGroup.tabscamolor_gadgets": "Scamolor\u0027s Gadgets",
+      "biome.scamolors_gadgets.you_shouldnt_be_here": "You Shouldnt Be Here",
       "block.scamolors_gadgets.crucible": "Crucible",
       "block.scamolors_gadgets.cloner": "Cloner",
       "block.scamolors_gadgets.broken": "Antiblock",
+      "subtitles.warped": "oh god",
       "block.scamolors_gadgets.ultradense_quartz": "Ultradense Quartz",
       "block.scamolors_gadgets.flerovium_block": "Flerovium Block",
       "gamerule.disableBabyZombies": "Disable Baby Zombies",
@@ -1098,6 +1135,7 @@
       "item.scamolors_gadgets.colossus": "Colossus",
       "item.scamolors_gadgets.crystal_of_undying": "Crystal Of Undying",
       "item.scamolors_gadgets.protostar_dust": "Dragon\u0027s Ash",
+      "item.scamolors_gadgets.broken_lands": "Broken Lands Portal Igniter",
       "item.scamolors_gadgets.dragon_ash_pickaxe": "Protostellar Pickaxe",
       "item.scamolors_gadgets.ore": "Igniter",
       "block.scamolors_gadgets.buffer": "Buffer",
@@ -1114,7 +1152,7 @@
   "workspaceSettings": {
     "modid": "scamolors_gadgets",
     "modName": "Scamolor\u0027s Gadgets",
-    "version": "-1.0R",
+    "version": "-1.0.0000001R",
     "description": "A mod that adds some new stuff",
     "author": "Scamolor",
     "websiteURL": "https://github.com/Scamolor",
@@ -1127,7 +1165,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
-    "credits": "Made by Scamolor",
+    "credits": "Check modpage for credits, the formatting didn\u0027t want to work for me",
     "modElementsPackage": "net.hyperzone.scamolorsgadgets",
     "lockBaseModFiles": false
   },

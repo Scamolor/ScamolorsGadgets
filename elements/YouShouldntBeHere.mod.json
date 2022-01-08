@@ -1,0 +1,160 @@
+{
+  "_fv": 24,
+  "_type": "biome",
+  "definition": {
+    "name": "You Shouldnt Be Here",
+    "groundBlock": {
+      "value": "CUSTOM:Broken"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:Broken"
+    },
+    "airColor": {
+      "value": -16764109,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -65281,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -13369447,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": "block.anvil.break"
+    },
+    "additionsSound": {
+      "value": "entity.evocation_illager.prepare_wololo"
+    },
+    "music": {
+      "value": "CUSTOM:warped"
+    },
+    "moodSound": {
+      "value": "entity.bee.pollinate"
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "ENCHANTMENT_TABLE"
+    },
+    "particlesProbability": 10.0,
+    "biomeCategory": "EXTREME_HILLS",
+    "parent": {
+      "value": "CUSTOM:OreBiome"
+    },
+    "rainingPossibility": 0.0,
+    "temperature": -1.0,
+    "baseHeight": 0.4,
+    "heightVariation": 1.2000000000000002,
+    "biomeType": "ICY",
+    "spawnBiome": false,
+    "biomeWeight": 1,
+    "biomeDictionaryTypes": [
+      "VOID",
+      "WASTELAND",
+      "MAGICAL"
+    ],
+    "grassPerChunk": 0,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 20,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 4,
+    "gravelPatchesPerChunk": 1,
+    "reedsPerChunk": 5,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 3,
+    "vanillaTreeType": "Mega spruce trees",
+    "treeType": 1,
+    "minHeight": 16,
+    "treeStem": {
+      "value": "CUSTOM:Debug"
+    },
+    "treeBranch": {
+      "value": "Blocks.PISTON_HEAD"
+    },
+    "treeVines": {
+      "value": "Blocks.IRON_BARS"
+    },
+    "treeFruits": {
+      "value": "Blocks.BONE_BLOCK"
+    },
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": true,
+    "spawnNetherFossil": true,
+    "spawnBastionRemnant": true,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NETHER",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "ExtraEmeraldOre",
+      "ExtraGoldOre",
+      "Fossils",
+      "MonsterRooms",
+      "SedimentDisks",
+      "OceanCaves"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityIllusionIllager"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityMagmaCube"
+        },
+        "minGroup": 1,
+        "maxGroup": 9,
+        "weight": 50,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityShulker"
+        },
+        "minGroup": 1,
+        "maxGroup": 6,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityBee"
+        },
+        "minGroup": 1,
+        "maxGroup": 200,
+        "weight": 10,
+        "spawnType": "ambient"
+      }
+    ]
+  }
+}
